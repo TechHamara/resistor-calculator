@@ -1,0 +1,585 @@
+<div align="center" >
+<h1><kbd>🏃‍♂️ ResistorCalculator</kbd></h1>
+An extension for MIT App Inventor 2.
+</div>
+
+## 📝 Specifications
+* **
+📦 **Package:** io.th.resistorcalculator.resistorcalculator
+💾 **Size:** 28.06 KB
+⚙️ **Version:** 1.0
+📱 **Minimum API Level:** 7
+📅 **Updated On:** [date=2025-04-08 timezone="Asia/Calcutta"]
+💻 **Built & documented using:** [FAST-CLI](https://community.appinventor.mit.edu/t/fast-an-efficient-way-to-build-extensions/129103?u=jewel) `v2.8.1`
+* **
+
+### 🤝 Multi-Components
+1. [ResistorCalculator](#kbd-resistorcalculatorkbd-3)
+2. [ElectronicsTools](#kbd-electronicstoolskbd-29)
+3. [SMDResistor](#kbd-smdresistorkbd-75)
+
+# <kbd>🧩 ResistorCalculator</kbd>
+Developed by th using Fast. Resistor Calculator and Draw a resistor with color bands<br><a href='https://t.me/techhamara91/' target='_blank'>Telegram</a> | <a href='https://github.com/TechHamara/' target='_blank'>GitHub</a><br><a href='https://techhamara.blogspot.com/' target='_blank'>Blogger</a> | <a href='https://m.youtube.com/c/TECHHAMARA?sub_confirmation=1' target='_blank'>YouTube</a><br><a href='https://github.com/TechHamara/Th_Free_Extensions' target='_blank'><small><u>Find More Extension</u></small></a><br><a href='https://github.com/TechHamara/Th_Extensions_List/blob/main/LICENSE.md#terms-and-conditions-for-the-extension' target='_blank'><small><u>Terms & Conditions</u></small></a>
+
+## <kbd>Events:</kbd>
+**ResistorCalculator** has total 3 events.
+
+### 💛 ResistanceChanged
+Event raised when resistance value changes
+
+| Parameter | Type
+| - | - |
+| value | number
+
+### 💛 ResistorTouched
+Triggered when resistor is touched
+
+| Parameter | Type
+| - | - |
+| x | number
+| y | number
+
+### 💛 BandClicked
+Triggered when a color band is clicked
+
+| Parameter | Type
+| - | - |
+| colorName | text
+| bandPosition | number
+
+## <kbd>Methods:</kbd>
+**ResistorCalculator** has total 8 methods.
+
+### 💜 ResistorView
+Add resistor UI to given arrangement
+
+| Parameter | Type
+| - | - |
+| arrangement | component
+
+### 💜 ResistanceValue
+Calculate the resistance value based on color bands
+
+### 💜 FormattedResistance
+Get formatted resistance value with unit
+
+### 💜 ThreeBandColors
+Set 3-band resistor colors
+
+| Parameter | Type
+| - | - |
+| band1 | text
+| band2 | text
+| band3 | text
+
+### 💜 FourBandColors
+Set 4-band resistor colors
+
+| Parameter | Type
+| - | - |
+| band1 | text
+| band2 | text
+| band3 | text
+| tolerance | text
+
+### 💜 FiveBandColors
+Set 5-band resistor colors
+
+| Parameter | Type
+| - | - |
+| band1 | text
+| band2 | text
+| band3 | text
+| multiplier | text
+| tolerance | text
+
+### 💜 ColorBandsForValue
+Get color band names for given resistance value (ohms) and band count
+
+| Parameter | Type
+| - | - |
+| resistance | number
+| bandCount | number
+
+### 💜 BandsFromValue
+Set resistor bands based on resistance value
+
+| Parameter | Type
+| - | - |
+| resistance | number
+| bandCount | number
+
+## <kbd>Setters:</kbd>
+**ResistorCalculator** has total 11 setter properties.
+
+### 💚 BackgroundColor
+Set the background color of the resistor view
+
+* Input type: `number`
+
+### 💚 Height
+Set the height of the resistor view in pixels
+
+* Input type: `number`
+
+### 💚 BodyWidth
+Set the width of the resistor body
+
+* Input type: `number`
+
+### 💚 WireLength
+Set the wire length
+
+* Input type: `number`
+
+### 💚 BodyColor
+Set the resistor body color
+
+* Input type: `number`
+
+### 💚 WireColor
+Set the wire color
+
+* Input type: `number`
+
+### 💚 BandSpacing
+Set the spacing between bands
+
+* Input type: `number`
+
+### 💚 BodyHeight
+Set the height of the resistor body
+
+* Input type: `number`
+
+### 💚 BandPaddingLeft
+Set the left padding for the color bands
+
+* Input type: `number`
+
+### 💚 WireStroke
+Set the thickness of the wires
+
+* Input type: `number`
+
+### 💚 BandWidth
+Set the width of the color bands
+
+* Input type: `number`
+
+# <kbd>🧩 ElectronicsTools</kbd>
+ElectronicsTools Calculator - Developed by th using Fast
+
+## <kbd>Events:</kbd>
+**ElectronicsTools** has total 4 events.
+
+### 💛 StandardValuesChanged
+Triggered when standard values change
+
+| Parameter | Type
+| - | - |
+| voltage | number
+| temp | number
+| pressure | number
+
+### 💛 TransistorGainCalculated
+Triggered when transistor gain is calculated
+
+| Parameter | Type
+| - | - |
+| gain | number
+
+### 💛 PowerFactorChanged
+Triggered when power factor changes
+
+| Parameter | Type
+| - | - |
+| powerFactor | number
+
+### 💛 EfficiencyCalculated
+Triggered when efficiency is calculated
+
+| Parameter | Type
+| - | - |
+| efficiency | number
+
+## <kbd>Methods:</kbd>
+**ElectronicsTools** has total 33 methods.
+
+### 💜 CalculateCurrent
+Calculate current using voltage and resistance (I = V/R)
+
+| Parameter | Type
+| - | - |
+| voltage | number
+| resistance | number
+
+### 💜 CalculateVoltage
+Calculate voltage using current and resistance (V = IR)
+
+| Parameter | Type
+| - | - |
+| current | number
+| resistance | number
+
+### 💜 CalculateResistance
+Calculate resistance using voltage and current (R = V/I)
+
+| Parameter | Type
+| - | - |
+| voltage | number
+| current | number
+
+### 💜 CalculatePower
+Calculate power (P = VI)
+
+| Parameter | Type
+| - | - |
+| voltage | number
+| current | number
+
+### 💜 VoltageDiv
+Calculate output voltage of voltage divider
+
+| Parameter | Type
+| - | - |
+| inputVoltage | number
+| r1 | number
+| r2 | number
+
+### 💜 ResistorSeries
+Calculate total resistance in series
+
+| Parameter | Type
+| - | - |
+| resistors | list
+
+### 💜 ResistorParallel
+Calculate total resistance in parallel
+
+| Parameter | Type
+| - | - |
+| resistors | list
+
+### 💜 CapacitorSeries
+Calculate total capacitance in series
+
+| Parameter | Type
+| - | - |
+| capacitors | list
+
+### 💜 CapacitorParallel
+Calculate total capacitance in parallel
+
+| Parameter | Type
+| - | - |
+| capacitors | list
+
+### 💜 CapacitorChargeTime
+Calculate capacitor charge time to reach voltage
+
+| Parameter | Type
+| - | - |
+| capacitance | number
+| resistance | number
+| targetVoltagePercent | number
+
+### 💜 LEDResistor
+Calculate required series resistor for LED
+
+| Parameter | Type
+| - | - |
+| supplyVoltage | number
+| ledVoltage | number
+| ledCurrent | number
+
+### 💜 NE555Frequency
+Calculate 555 timer frequency in astable mode
+
+| Parameter | Type
+| - | - |
+| r1 | number
+| r2 | number
+| c | number
+
+### 💜 NE555DutyCycle
+Calculate 555 timer duty cycle in astable mode
+
+| Parameter | Type
+| - | - |
+| r1 | number
+| r2 | number
+
+### 💜 BatteryLife
+Calculate battery life in hours
+
+| Parameter | Type
+| - | - |
+| batteryCapacity | number
+| currentDraw | number
+
+### 💜 RegulatorDissipation
+Calculate voltage regulator power dissipation
+
+| Parameter | Type
+| - | - |
+| inputVoltage | number
+| outputVoltage | number
+| current | number
+
+### 💜 RippleVoltage
+Calculate power supply ripple voltage
+
+| Parameter | Type
+| - | - |
+| current | number
+| frequency | number
+| capacitance | number
+
+### 💜 CelsiusToFahrenheit
+Convert Celsius to Fahrenheit
+
+| Parameter | Type
+| - | - |
+| celsius | number
+
+### 💜 FahrenheitToCelsius
+Convert Fahrenheit to Celsius
+
+| Parameter | Type
+| - | - |
+| fahrenheit | number
+
+### 💜 WireResistance
+Calculate wire resistance based on length, gauge, and material
+
+| Parameter | Type
+| - | - |
+| length | number
+| resistivity | number
+| area | number
+
+### 💜 InductorReactance
+Calculate inductor reactance
+
+| Parameter | Type
+| - | - |
+| inductance | number
+| frequency | number
+
+### 💜 CapacitorReactance
+Calculate capacitor reactance
+
+| Parameter | Type
+| - | - |
+| capacitance | number
+| frequency | number
+
+### 💜 TransistorGain
+Calculate transistor gain
+
+| Parameter | Type
+| - | - |
+| collectorCurrent | number
+| baseCurrent | number
+
+### 💜 RCTimeConstant
+Calculate RC time constant
+
+| Parameter | Type
+| - | - |
+| resistance | number
+| capacitance | number
+
+### 💜 ResonantFrequency
+Calculate LC resonant frequency
+
+| Parameter | Type
+| - | - |
+| inductance | number
+| capacitance | number
+
+### 💜 DecibelGain
+Calculate decibel gain
+
+| Parameter | Type
+| - | - |
+| outputPower | number
+| inputPower | number
+
+### 💜 PowerFactor
+Calculate power factor
+
+| Parameter | Type
+| - | - |
+| realPower | number
+| apparentPower | number
+
+### 💜 Impedance
+Calculate impedance magnitude
+
+| Parameter | Type
+| - | - |
+| resistance | number
+| reactance | number
+
+### 💜 CutoffFrequency
+Calculate filter cutoff frequency
+
+| Parameter | Type
+| - | - |
+| resistance | number
+| capacitance | number
+
+### 💜 TransformerRatio
+Calculate transformer turns ratio
+
+| Parameter | Type
+| - | - |
+| primaryVoltage | number
+| secondaryVoltage | number
+
+### 💜 TemperatureCoefficient
+Calculate temperature coefficient
+
+| Parameter | Type
+| - | - |
+| initialValue | number
+| finalValue | number
+| tempChange | number
+
+### 💜 ThermalResistance
+Calculate thermal resistance
+
+| Parameter | Type
+| - | - |
+| tempDiff | number
+| power | number
+
+### 💜 Efficiency
+Calculate efficiency percentage
+
+| Parameter | Type
+| - | - |
+| outputPower | number
+| inputPower | number
+
+### 💜 WireCurrentCapacity
+Calculate wire gauge current capacity
+
+| Parameter | Type
+| - | - |
+| wireGauge | number
+| temperatureRating | number
+
+## <kbd>Setters:</kbd>
+**ElectronicsTools** has total 2 setter properties.
+
+### 💚 StandardVoltage
+Set standard voltage value (V)
+
+* Input type: `number`
+
+### 💚 RoomTemperature
+Set room temperature (°C)
+
+* Input type: `number`
+
+## <kbd>Getters:</kbd>
+**ElectronicsTools** has total 2 getter properties.
+
+### 🟢 StandardVoltage
+Set standard voltage value (V)
+
+* Return type: `number`
+
+### 🟢 RoomTemperature
+Set room temperature (°C)
+
+* Return type: `number`
+
+# <kbd>🧩 SMDResistor</kbd>
+SMD Resistor Calculator - Developed by th using Fast
+
+## <kbd>Events:</kbd>
+**SMDResistor** has total 3 events.
+
+### 💛 ResistanceChanged
+Event raised when resistance value changes
+
+| Parameter | Type
+| - | - |
+| value | number
+
+### 💛 Click
+Triggered when SMD resistor is clicked
+
+### 💛 LongPress
+Triggered when long press is detected
+
+## <kbd>Methods:</kbd>
+**SMDResistor** has total 3 methods.
+
+### 💜 SMDView
+Add SMD UI to given arrangement
+
+| Parameter | Type
+| - | - |
+| arrangement | component
+
+### 💜 SMDCode
+Set SMD code (e.g., '103' for 10kΩ)
+
+| Parameter | Type
+| - | - |
+| code | text
+
+### 💜 FormattedSMDResistance
+Get formatted resistance value with unit
+
+## <kbd>Setters:</kbd>
+**SMDResistor** has total 6 setter properties.
+
+### 💚 BackgroundColor
+Set the background color
+
+* Input type: `number`
+
+### 💚 BodyColor
+Set the SMD body color
+
+* Input type: `number`
+
+### 💚 CodeTextColor
+Set the SMD code text color
+
+* Input type: `number`
+
+### 💚 ValueTextColor
+Set the value text color
+
+* Input type: `number`
+
+### 💚 Width
+Set the SMD component width
+
+* Input type: `number`
+
+### 💚 Height
+Set the SMD component height
+
+* Input type: `number`
+
+## <kbd>Getters:</kbd>
+**SMDResistor** has total 2 getter properties.
+
+### 🟢 BackgroundColor
+Set the background color
+
+* Return type: `number`
+
+### 🟢 BodyColor
+Set the SMD body color
+
+* Return type: `number`
+
