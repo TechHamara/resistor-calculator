@@ -8,10 +8,10 @@ An extension for MIT App Inventor 2.<br>
 ## 📝 Specifications
 * **
 📦 **Package:** io.th.resistorcalculator.resistorcalculator<br>
-💾 **Size:** 25.92 KB<br>
+💾 **Size:** 28.06 KB<br>
 ⚙️ **Version:** 1.0<br>
 📱 **Minimum API Level:** 7<br>
-📅 **Updated On:** [date=2025-04-07 timezone="Asia/Calcutta"]<br>
+📅 **Updated On:** [date=2025-04-08 timezone="Asia/Calcutta"]<br>
 💻 **Built & documented using:** [FAST-CLI](https://community.appinventor.mit.edu/t/fast-an-efficient-way-to-build-extensions/129103?u=jewel) `v2.8.1`
 * **
 <br>
@@ -22,14 +22,14 @@ An extension for MIT App Inventor 2.<br>
 
 -----
 
-![Set5BandColors_Method](https://github.com/user-attachments/assets/f49606af-77c1-4eb3-bd4f-425e273c55b2)
-![Set4BandColors_Method](https://github.com/user-attachments/assets/c5598c49-a0dc-4703-ba4f-8f0ad7f3da59)
-![Set3BandColors_Method](https://github.com/user-attachments/assets/981dff07-98f7-48f2-ada9-8f480cfad276)
-![GetResistanceValue_Method](https://github.com/user-attachments/assets/b13e4fd4-6baa-42bc-adcd-462b0ad35968)
-![GetFormattedResistance_Method](https://github.com/user-attachments/assets/fbd101c2-03dd-4398-b565-0f6456c20348)
+![ResistorView_Method](https://github.com/user-attachments/assets/2ce0994d-7dbc-40ba-9248-27381d310cb6)
+![ThreeBandColors_Method](https://github.com/user-attachments/assets/718150ff-6274-4fc7-ab7e-d6de7480d2d9)
+![FourBandColors_Method](https://github.com/user-attachments/assets/b74e0f1d-66ec-4aff-ad9d-7ac8b03f605d)
+![FiveBandColors_Method](https://github.com/user-attachments/assets/52d28d57-e640-43ab-bf57-61bd2be03a9b)
+![ResistanceValue_Method](https://github.com/user-attachments/assets/d795589b-08ca-4cb8-a0b4-1a56b7e9f23b)
+![FormattedResistance_Method](https://github.com/user-attachments/assets/93a344c4-be10-492b-9ac0-07bcaff24403)
 ![ColorBandsForValue_Method](https://github.com/user-attachments/assets/c1652323-3773-498e-97f1-8a43c435befe)
 ![BandsFromValue_Method](https://github.com/user-attachments/assets/23536e54-2d3d-4fd5-80c8-be9c4ef2bcd8)
-![AddResistorView_Method](https://github.com/user-attachments/assets/4bd7dfa4-c62f-4fc5-aa4e-73cad81151e2)
 
 -----
 
@@ -58,6 +58,7 @@ An extension for MIT App Inventor 2.<br>
 
 -----
 
+![FormattedSMDResistance_Method](https://github.com/user-attachments/assets/a4557ff1-591c-49df-8d2b-816f751dcd4f)
 ![ValueTextColor_Set_Property](https://github.com/user-attachments/assets/fefd948e-9d11-4648-a341-c1c946144caa)
 ![Height_Set_Property](https://github.com/user-attachments/assets/32a8ae37-7bd2-4192-80ec-e91e3dc19158)
 ![CodeTextColor_Set_Property](https://github.com/user-attachments/assets/e57d2839-3db6-448c-8fd2-a76f8868e394)
