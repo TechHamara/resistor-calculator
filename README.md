@@ -123,8 +123,9 @@ An extension for MIT App Inventor 2.<br>
 
 ## Demo
 
-![blocks](https://github.com/user-attachments/assets/1ad8b419-7f99-4dbe-a2b6-ba7741b82454)
-![MIT-App-Inventor-04-07-2025_08_39_PM](https://github.com/user-attachments/assets/b0c7c396-a29f-411c-8911-91fe5797d086)
+![blocks](https://github.com/user-attachments/assets/a85d4033-46f9-4555-8d6b-3772e1e2de52)
+![designer-part](https://github.com/user-attachments/assets/36ff4fce-3408-4f91-bd16-f36ea550ef8e)
+
 
 <br>
 
