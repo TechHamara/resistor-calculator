@@ -1,4 +1,4 @@
-<h1><kbd>🏃‍♂️ ResistorCalculator</kbd></h1>
+![ThreeBandColors_Method](https://github.com/user-attachments/assets/03097dbd-bdfb-426b-b4a4-c4f22c40d6e1)<h1><kbd>🏃‍♂️ ResistorCalculator</kbd></h1>
 An extension for MIT App Inventor 2.<br>
   Resistor Calculator and Draw a resistor with color bands in ai2
   <br>
@@ -23,9 +23,9 @@ An extension for MIT App Inventor 2.<br>
 -----
 
 ![ResistorView_Method](https://github.com/user-attachments/assets/2ce0994d-7dbc-40ba-9248-27381d310cb6)
-![ThreeBandColors_Method](https://github.com/user-attachments/assets/718150ff-6274-4fc7-ab7e-d6de7480d2d9)
-![FourBandColors_Method](https://github.com/user-attachments/assets/b74e0f1d-66ec-4aff-ad9d-7ac8b03f605d)
-![FiveBandColors_Method](https://github.com/user-attachments/assets/52d28d57-e640-43ab-bf57-61bd2be03a9b)
+![FiveBandColors_Method](https://github.com/user-attachments/assets/31cb6a86-bf86-493b-99fb-72251e31b8a4)
+![FourBandColors_Method](https://github.com/user-attachments/assets/3c8df622-f430-4fea-acaa-03b9dcdefc4a)
+![ThreeBandColors_Method](https://github.com/user-attachments/assets/50985dfe-cd26-458c-85a5-52024eb40a52)
 ![ResistanceValue_Method](https://github.com/user-attachments/assets/d795589b-08ca-4cb8-a0b4-1a56b7e9f23b)
 ![FormattedResistance_Method](https://github.com/user-attachments/assets/93a344c4-be10-492b-9ac0-07bcaff24403)
 ![ColorBandsForValue_Method](https://github.com/user-attachments/assets/c1652323-3773-498e-97f1-8a43c435befe)
@@ -123,9 +123,10 @@ An extension for MIT App Inventor 2.<br>
 
 ## Demo
 
-![blocks](https://github.com/user-attachments/assets/16b286b4-9353-4a83-be3f-3d1109ff490e)
+![blocks](https://github.com/user-attachments/assets/a8b1fd27-40f9-4500-a4f0-c454732742e9)
 ![designer-part](https://github.com/user-attachments/assets/97985183-cb7b-4e8c-abcd-97fd04292e73)
 ![out](https://github.com/user-attachments/assets/c29e734b-ffe2-4dc4-b100-646869ee1c17)
+![out](https://github.com/user-attachments/assets/c8b10529-0276-4bbc-8fdb-e35069786580)
 
 <br>
 
