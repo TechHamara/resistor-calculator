@@ -1,4 +1,4 @@
-![ThreeBandColors_Method](https://github.com/user-attachments/assets/03097dbd-bdfb-426b-b4a4-c4f22c40d6e1)<h1><kbd>🏃‍♂️ ResistorCalculator</kbd></h1>
+<h1><kbd>🏃‍♂️ ResistorCalculator</kbd></h1>
 An extension for MIT App Inventor 2.<br>
   Resistor Calculator and Draw a resistor with color bands in ai2
   <br>
@@ -126,7 +126,7 @@ An extension for MIT App Inventor 2.<br>
 ![blocks](https://github.com/user-attachments/assets/a8b1fd27-40f9-4500-a4f0-c454732742e9)
 ![designer-part](https://github.com/user-attachments/assets/97985183-cb7b-4e8c-abcd-97fd04292e73)
 ![out](https://github.com/user-attachments/assets/c29e734b-ffe2-4dc4-b100-646869ee1c17)
-![out](https://github.com/user-attachments/assets/c8b10529-0276-4bbc-8fdb-e35069786580)
+
 
 <br>
 
